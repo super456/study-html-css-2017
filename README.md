@@ -20,6 +20,10 @@
 [知识点总结观看][03]
 #### 项目练习：[简单的HTML框架布局][04]
 
+## 参考文献
+- [麦子学院——朱朝兵老师教学课程](http://www.maiziedu.com/u/1472/)
+- [W3Cschool](https://www.w3cschool.cn/)
+
 [01]: /0801/index.md
 [02]: https://super456.github.io/study-html-css-2017/0801/table-web.html
 [03]: /0802/index.md
