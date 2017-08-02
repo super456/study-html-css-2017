@@ -8,9 +8,10 @@
 - 图像标记
 - 超链接的使用
 - 表格
-知识点总结观看
-#### 项目实战：[简单的表格网页布局][01]
+
+[知识点总结查看][01]
+#### 项目练习：[简单的表格网页布局][02]
 
 
-
-[01]: https://super456.github.io/study-html-css-2017/0801/table-web.html
+[01]: /0801/index.md
+[02]: https://super456.github.io/study-html-css-2017/0801/table-web.html
