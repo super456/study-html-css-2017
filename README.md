@@ -76,4 +76,4 @@
 [08]: https://super456.github.io/study-html-css-2017/0804
 [09]: https://super456.github.io/study-html-css-2017/0804/text-border-list.html
 [10]: https://super456.github.io/study-html-css-2017/0805
-[11]: https://super456.github.io/study-html-css-2017/0805/html_css.html
+[11]: https://super456.github.io/study-html-css-2017/0805/html-css.html
