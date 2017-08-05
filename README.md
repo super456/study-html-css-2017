@@ -38,7 +38,7 @@
 
 [知识点总结查看][05]
 
- #### 项目练习：[简单的知识应用][06]
+#### 项目练习：[简单的知识应用][06]
 
 ## 4号
 
@@ -48,7 +48,7 @@
 
 [知识点总结查看][08]
 
- #### 项目练习：[简单的知识应用][09]
+#### 项目练习：[简单的知识应用][09]
 
 ## 参考文献
 - [麦子学院——朱朝兵老师教学课程](http://www.maiziedu.com/u/1472/)
@@ -56,12 +56,12 @@
 - [MDN web docs](https://developer.mozilla.org/zh-CN/docs/Learn)
 - [菜鸟教程][07]
 
-[01]: /0801/index.md
+[01]: https://super456.github.io/study-html-css-2017/0801
 [02]: https://super456.github.io/study-html-css-2017/0801/table-web.html
-[03]: /0802/index.md
+[03]: https://super456.github.io/study-html-css-2017/0802
 [04]: https://super456.github.io/study-html-css-2017/0802/frameset.html
-[05]: /0803/index.md
+[05]: https://super456.github.io/study-html-css-2017/0803
 [06]: https://super456.github.io/study-html-css-2017/0803/color-font-bg.html
 [07]: http://www.runoob.com/
-[08]: /0804/index.md
+[08]: https://super456.github.io/study-html-css-2017/0804
 [09]: https://super456.github.io/study-html-css-2017/0804/text-border-list.html
