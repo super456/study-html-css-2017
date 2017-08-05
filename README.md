@@ -48,7 +48,7 @@
 
 [知识点总结查看][08]
 
-#### 项目练习：[简单的常见属性知识应用][09]     [DIV+CSS布局(div和span、盒模型)知识应用][13]
+#### 项目练习：[简单的常见属性知识应用][09]     [DIV+CSS布局(div和span、盒模型)知识应用][13] 
 
 ## 5号
 
@@ -57,7 +57,7 @@
 
 [知识点总结查看][10]
 
-#### 项目练习：[使用HTML+CSS实现简单网页布局实战][11]
+#### 项目练习：[使用HTML+CSS实现简单网页布局实战][11]   [简单的浮动问题处理知识应用][14] 
 
 ## 阶段三
 
@@ -82,3 +82,4 @@
 [11]: https://super456.github.io/study-html-css-2017/0805/html-css.html
 [12]: https://super456.github.io/study-html-css-2017/0802/form-checked.html
 [13]: https://super456.github.io/study-html-css-2017/0804/div-span-margin.html
+[14]: https://super456.github.io/study-html-css-2017/0805/float-clear.html
