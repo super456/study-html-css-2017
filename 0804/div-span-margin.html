@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>DIV+CSS布局(DIV+SPAN、盒模型练习)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type="text/css">
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .div {
+            width: 960px;
+            height: 600px;
+            margin: 0 auto;
+            background-color: green;
+        }
+
+        .diva {
+            float: left;
+            width: 240px;
+            height: 240px;
+            background-color: red;
+        }
+
+        .divb {
+            float: left;
+            width: 240px;
+            height: 240px;
+            background-color: yellow;
+        }
+
+        .div div {
+            margin: 100px;
+            padding: 50px;
+            border: solid 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div">
+        <div class="diva">方块一</div>
+        <div class="divb">方块二</div>
+    </div>
+</body>
+
+</html>
