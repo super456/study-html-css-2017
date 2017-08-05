@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>常用属性练习(颜色、字体、背景)</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-    
-    </body>
+
+<head>
+    <title>常用属性练习(颜色、字体、背景)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            margin: 0 auto;
+        }
+
+        .demo {
+            width: 960px;
+            height: 30px;
+            line-height: 30px;
+            border: 1px solid black;
+            background-color: #888;
+            text-align: center;
+        }
+
+        .demo1 {
+            width: 960px;
+            height: 500px;
+            text-align: center;
+            border: 1px solid black;
+            background-color: #2E8B57;
+        }
+
+        .demo2 {
+            width: 200px;
+            height: 200px;
+            float: left;
+            margin-right: 20px;
+            margin-top: 20px;
+            margin-left: 20px;
+            font: 30px/50px "微软雅黑" ;
+            border: 1px solid pink;
+        }
+
+        .demo3 {
+            width: 200px;
+            height: 200px;
+            float: left;
+            margin-right: 20px;
+            margin-top: 20px;
+            color: rgba(182, 22, 206, 0.1);
+            font-size: 50px;
+            border: 1px solid pink;
+        }
+
+        .demo4 {
+            width: 200px;
+            height: 200px;
+            float: left;
+            margin-top: 20px;
+            border: 1px solid pink;
+            background: url(./img/bg.gif) repeat center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="demo">
+        <p>颜色、字体、背景属性练习</p>
+    </div>
+    <div class="demo1">
+        <div class="demo2">字体样式2</div>
+        <div class="demo3">字体样式3</div>
+        <div class="demo4">字体样式4</div>
+    </div>
+</body>
+
 </html>
