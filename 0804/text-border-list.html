@@ -4,8 +4,113 @@
         <title>常见属性练习(文本、边框、列表)</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        * {
+            margin: 0 auto;
+        }
+
+        .demo {
+            width: 960px;
+            height: 30px;
+            line-height: 30px;
+            border: 1px solid black;
+            background-color: #888;
+            text-align: center;
+        }
+
+        .demo1 {
+            width: 960px;
+            height: 500px;
+            text-align: center;
+            border: 10px solid black;
+            background-color: #2E8B57;
+            border-color:green blue yellow black;
+        }
+
+        .demo2 {
+            width: 200px;
+            height: 200px;
+            float: left;
+            margin-right: 20px;
+            margin-top: 20px;
+            margin-left: 20px;
+            font: 30px/50px "微软雅黑" ;
+            border: 1px solid pink;
+
+            text-align:left;
+			font-size:20px;
+			line-height:20px;
+			text-indent:40px;
+			letter-spacing:3px;
+			word-spacing:20px;
+			/* direction:rtl; */
+			text-transform:lowercase
+        }
+
+        .demo3 {
+            width: 200px;
+            height: 200px;
+            float: left;
+            margin-right: 20px;
+            margin-top: 20px;
+            color: rgba(182, 22, 206, 0.1);
+            font-size: 50px;
+            border: 10px solid pink;
+            border-style:groove;
+            border-bottom-style:inset;
+        }
+
+        .demo4 {
+            width: 200px;
+            height: 200px;
+            float: left;
+            margin-top: 20px;
+            border: 10px solid pink;
+            border-style: ridge;
+            border-bottom-style:outset;
+        }
+        .ul{
+            float: left
+        }
+        .gif{
+            list-style: none;
+            list-style-image: url(./img/arr.gif);
+        }
+
+        .png{
+            list-style:none;
+            list-style-image: url(./img/arr.png);
+        }
+        </style>
     </head>
     <body>
-    
+     <div class="demo">
+        <p>文本、边框、列表属性练习</p>
+    </div>
+    <div class="demo1">
+        <div class="demo2">样式2 , My name is Du Shiwu!</div>
+        <div class="demo3">样式3</div>
+        <div class="demo4">样式4</div>
+        <div class="ul">
+            <p>无序列表inside</p>
+		<ul class="gif">
+			<li>无序列表</li>
+			<li>无序列表</li>
+			<li>无序列表</li>
+			<li>无序列表
+				<ul class="png">
+					<li>无序列表</li>
+					<li>无序列表</li>
+					<li>无序列表</li>
+					<li>无序列表</li>
+					<li>无序列表</li>
+					<li>无序列表</li>
+				</ul>
+			</li>
+			<li>无序列表</li>
+			<li>无序列表</li>
+		</ul>
+        </div>
+    </div>
     </body>
 </html>
