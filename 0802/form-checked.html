@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>一般的网站注册</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <form action="#" method="get">
+        <table align="center" cellspacing="10px" cellpadding="2px">
+            <caption>
+                <h2>用户注册</h2>
+            </caption>
+            <tr>
+                <td align="right">用户名：</td>
+                <td><input type="text" name="username" value="" placeholder="请输入6-12为用户名" autofocus></td>
+            </tr>
+            <tr>
+                <td align="right">密 码：</td>
+                <td><input type="password" name="pwd" value="" placeholder="请输入6-12的数字或字母"></td>
+            </tr>
+            <tr>
+                <td align="right">再次输入密码：</td>
+                <td><input type="password" name="repwd" value="" placeholder="请再次输入密码"></td>
+            </tr>
+            <tr>
+                <td align="right">性 别：</td>
+                <td><input type="radio" name="sex" value="man" checked>男 <input type="radio" name="sex" value="woman">女</td>
+            </tr>
+            <tr>
+                <td align="right">请选择兴趣爱好：</td>
+                <td><input type="checkbox" name="habby" value="1">游泳 <input type="checkbox" name="habby" value="2">爬山</td>
+            </tr>
+            <tr>
+                <td align="right">个人简历：</td>
+                <td><textarea rows="5" cols="15" placeholder="请输入你的简单介绍自己"></textarea></td>
+            </tr>
+            <tr>
+                <td align="right">出生日期：</td>
+                <td><input type="date" name="brondate" value=""></td>
+            </tr>
+            <tr>
+                <td align="right">出生地：</td>
+                <td><select name="bornaddress"> 
+                    <option value="guangzhou">广州</option>
+                    <option value="sehnzhen">深圳</option>
+                    <option value="sahgnhai">上海</option>                    
+                </select></td>
+            </tr>
+            <tr>
+                <td align="right">学 历：</td>
+                <td><select>
+                    <option value="dazhuan">大专</option>
+                    <option value="benke">本科</option>
+                    <option value="yanjiusheng">研究生</option> 
+                </select></td>
+            </tr>
+            <tr>
+                <td align="right">邮 箱：</td>
+                <td><input type="email" name="email" value=""></td>
+            </tr>
+            <tr>
+                <td align="right"><input type="submit" name="submit" value="提交"></td>
+                <td><input type="reset" name="reset" value="取消"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
