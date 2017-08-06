@@ -69,11 +69,32 @@
 
 **HTML5总知识点学习概览图：**
 
+## 6号
+
+### HTML5基础学习
+- HTML5简介
+- 学习article元素
+- 学习section元素
+- 学习aside元素
+- 学习nav元素
+- 学习time元素
+- 学习pubdate元素
+
+[知识点总结查看][16]
+
+#### 项目练习：
+- [article元素练习][17]
+- [section元素练习][18]
+- [aside元素练习][19]
+- [nav元素练习][20]
+- [time元素练习][21]
+
 ## 参考文献
 - [麦子学院——朱朝兵老师教学课程](http://www.maiziedu.com/u/1472/)
 - [W3Cschool](https://www.w3cschool.cn/)
 - [MDN web docs](https://developer.mozilla.org/zh-CN/docs/Learn)
 - [菜鸟教程][07]
+- [极客学院][15]
 
 [01]: https://super456.github.io/study-html-css-2017/0801
 [02]: https://super456.github.io/study-html-css-2017/0801/table-web.html
@@ -89,3 +110,10 @@
 [12]: https://super456.github.io/study-html-css-2017/0802/form-checked.html
 [13]: https://super456.github.io/study-html-css-2017/0804/div-span-margin.html
 [14]: https://super456.github.io/study-html-css-2017/0805/float-clear.html
+[15]: http://www.jikexueyuan.com/
+[16]: https://super456.github.io/study-html-css-2017/0806
+[17]: https://super456.github.io/study-html-css-2017/0806/article.html
+[18]: https://super456.github.io/study-html-css-2017/0806/section.html
+[19]: https://super456.github.io/study-html-css-2017/0806/aside.html
+[20]: https://super456.github.io/study-html-css-2017/0806/nav.html
+[21]: https://super456.github.io/study-html-css-2017/0806/pubdate.html
