@@ -67,8 +67,15 @@
 
 ## 阶段三
 
+**1. 完全掌握HTML5网页结构。2. 掌握及熟练使用HTML5语义化元素。3. 能够独立地完成常见HTML5网页**
+
 **HTML5总知识点学习概览图：**
 
+![Markdown](http://i4.bvimg.com/601612/b53dd02b70a12ed9.png)
+
+**HTML5新增属性及元素：**
+
+![Markdown](http://i1.bvimg.com/601612/e99e0bbb566c89b8.png)
 ## 6号
 
 ### HTML5基础学习
