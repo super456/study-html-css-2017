@@ -133,11 +133,11 @@
 
 ## 8号
 
-<!-- ### HTML5基础学习
+ ### HTML5基础学习
 
-[知识点总结查看][]
+[知识点总结查看][39]
 
-#### 项目练习 -->
+#### 项目练习 
 ## 参考文献
 - [麦子学院——朱朝兵老师教学课程](http://www.maiziedu.com/u/1472/)
 - [W3Cschool](https://www.w3cschool.cn/)
@@ -191,3 +191,5 @@
 [35]: https://super456.github.io/study-html-css-2017/0807/html5-web-outline.html
 [37]: https://super456.github.io/study-html-css-2017/0807/ol-list.html
 [38]: https://super456.github.io/study-html-css-2017/0807/dl-list.html
+
+[39]: https://super456.github.io/study-html-css-2017/0808
