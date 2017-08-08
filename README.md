@@ -134,11 +134,21 @@
 ## 8号
 
 ### HTML5基础学习
-
+- 简单了解canvas元素
+- 用Canvas绘制一个矩形
+- 用Canvas绘制一个圆形
+- 用Canvas绘制文字
+- 用Canvas保存文件
+- 用Canvas绘制动画
 
 [知识点总结查看][39]
 
 #### 项目练习 
+- [Canvas绘制一个矩形][40]
+- [Canvas绘制一个圆形][41]
+- [Canvas绘制文字][42]
+- [Canvas保存文件][43]
+- [Canvas绘制动画][44]
 
 ## 参考文献
 - [麦子学院——朱朝兵老师教学课程](http://www.maiziedu.com/u/1472/)
@@ -195,3 +205,9 @@
 [38]: https://super456.github.io/study-html-css-2017/0807/dl-list.html
 
 [39]: https://super456.github.io/study-html-css-2017/0808
+[40]: https://super456.github.io/study-html-css-2017/0808/canvas-rectangle.html
+[41]: https://super456.github.io/study-html-css-2017/0808/canvas-cirular.html
+[42]: https://super456.github.io/study-html-css-2017/0808/canvas-test.html
+[43]: https://super456.github.io/study-html-css-2017/0808/canvas-todataurl.html
+[44]: https://super456.github.io/study-html-css-2017/0808/canvas-setinterval.html
+
