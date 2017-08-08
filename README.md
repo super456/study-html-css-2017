@@ -206,8 +206,8 @@
 
 [39]: https://super456.github.io/study-html-css-2017/0808
 [40]: https://super456.github.io/study-html-css-2017/0808/canvas-rectangle.html
-[41]: https://super456.github.io/study-html-css-2017/0808/canvas-cirular.html
-[42]: https://super456.github.io/study-html-css-2017/0808/canvas-test.html
+[41]: https://super456.github.io/study-html-css-2017/0808/canvas-circular.html
+[42]: https://super456.github.io/study-html-css-2017/0808/canvas-text.html
 [43]: https://super456.github.io/study-html-css-2017/0808/canvas-todataurl.html
 [44]: https://super456.github.io/study-html-css-2017/0808/canvas-setinterval.html
 
