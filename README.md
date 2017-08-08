@@ -86,6 +86,10 @@
 - 学习nav元素
 - 学习time元素
 - 学习pubdate元素
+- 学习header元素
+- 学习hgroup元素
+- 学习footer元素
+- 学习address元素
 
 [知识点总结查看][16]
 
@@ -95,6 +99,12 @@
 - [aside元素练习][19]
 - [nav元素练习][20]
 - [pubdate元素练习][21]
+- [header元素练习][22]
+- [hgroup元素练习][23]
+- [footer元素练习][24]
+- [address元素练习][25]
+- [header-hgroup元素练习][26]
+- [footer与article与section元素练习][36]
 
 ## 7号
 
@@ -107,9 +117,19 @@
 - 学习html5大纲
 - 加强版的ol与dl元素
 
-[知识点总结查看][22]
+[知识点总结查看][27]
 
 #### 项目练习
+- [figure-figcaption元素练习](28)
+- [details-summary元素练习](29)
+- [mark元素练习](30)
+- [progress元素练习](31)
+- [meter元素练习](32)
+- [HTML5大纲练习](33)
+- [HTML5显示和隐式大纲练习](34)
+- [网页大纲元素练习](35)
+- [加强版ol元素练习](37)
+- [加强版dl元素练习](38)
 
 ## 8号
 
@@ -127,23 +147,47 @@
 
 [01]: https://super456.github.io/study-html-css-2017/0801
 [02]: https://super456.github.io/study-html-css-2017/0801/table-web.html
+
 [03]: https://super456.github.io/study-html-css-2017/0802
 [04]: https://super456.github.io/study-html-css-2017/0802/frameset.html
+[12]: https://super456.github.io/study-html-css-2017/0802/form-checked.html
+
 [05]: https://super456.github.io/study-html-css-2017/0803
 [06]: https://super456.github.io/study-html-css-2017/0803/color-font-bg.html
+
 [07]: http://www.runoob.com/
+
 [08]: https://super456.github.io/study-html-css-2017/0804
 [09]: https://super456.github.io/study-html-css-2017/0804/text-border-list.html
+[13]: https://super456.github.io/study-html-css-2017/0804/div-span-margin.html
+
 [10]: https://super456.github.io/study-html-css-2017/0805
 [11]: https://super456.github.io/study-html-css-2017/0805/html-css.html
-[12]: https://super456.github.io/study-html-css-2017/0802/form-checked.html
-[13]: https://super456.github.io/study-html-css-2017/0804/div-span-margin.html
 [14]: https://super456.github.io/study-html-css-2017/0805/float-clear.html
+
 [15]: http://www.jikexueyuan.com/
+
 [16]: https://super456.github.io/study-html-css-2017/0806
 [17]: https://super456.github.io/study-html-css-2017/0806/article.html
 [18]: https://super456.github.io/study-html-css-2017/0806/section.html
 [19]: https://super456.github.io/study-html-css-2017/0806/aside.html
 [20]: https://super456.github.io/study-html-css-2017/0806/nav.html
 [21]: https://super456.github.io/study-html-css-2017/0806/pubdate.html
-[22]: https://super456.github.io/study-html-css-2017/0807
+[22]: https://super456.github.io/study-html-css-2017/0806/header.html
+[23]: https://super456.github.io/study-html-css-2017/0806/hgroup.html
+[24]: https://super456.github.io/study-html-css-2017/0806/id-footer.html
+[25]: https://super456.github.io/study-html-css-2017/0806/address.html
+[26]: https://super456.github.io/study-html-css-2017/0806/header-hgroup.html
+[36]: https://super456.github.io/study-html-css-2017/0806/article-section-footer.html
+
+[27]: https://super456.github.io/study-html-css-2017/0807
+[28]: https://super456.github.io/study-html-css-2017/0807/figure-figcaption.html
+[29]: https://super456.github.io/study-html-css-2017/0807/details-summary.html
+[30]: https://super456.github.io/study-html-css-2017/0807/mark.html
+[31]: https://super456.github.io/study-html-css-2017/0807/progress.html
+[32]: https://super456.github.io/study-html-css-2017/0807/meter.html
+[33]: https://super456.github.io/study-html-css-2017/0807/untitled-section.html
+[34]: https://super456.github.io/study-html-css-2017/0807/title-section.html
+[35]: https://super456.github.io/study-html-css-2017/0807/html5-web-outline.html
+[37]: https://super456.github.io/study-html-css-2017/0807/ol-list.html
+[38]: https://super456.github.io/study-html-css-2017/0807/dl-list.html
