@@ -2,7 +2,7 @@
 
 **[返回我的学习主页列表](https://super456.github.io/study-html-css-2017/)**
 
-##  HTML5快速入门学习
+##  HTML5基础学习
 
 ### (一) 什么是HTML5
 

@@ -99,6 +99,17 @@
 ## 7号
 
 ### HTML5基础学习
+- 学习figure与figcaption元素
+- 学习details与summary元素
+- 学习mark元素
+- 学习progress元素
+- 学习meter元素
+- 学习html5大纲
+- 加强版的ol与dl元素
+
+#### 项目练习
+
+
 
 ## 参考文献
 - [麦子学院——朱朝兵老师教学课程](http://www.maiziedu.com/u/1472/)
