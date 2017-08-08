@@ -79,7 +79,7 @@
 ## 6号
 
 ### HTML5基础学习
-- HTML5简介
+- HTML5认知
 - 学习article元素
 - 学习section元素
 - 学习aside元素
