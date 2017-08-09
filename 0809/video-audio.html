@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>video和audio元素练习</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <h1>Audio元素：默认使用mp3格式</h1>
+    <audio controls loop preload="auto" autoplay>
+        <source src="./audio/By2 - Because of you.mp3" type="audio/mp3">
+        您的浏览器太老了，不能识别HTML5的audio元素，请更换游览器或更新！
+    </audio>
+    <h1>video元素：各个浏览器支持不一样，格式较多</h1>
+    <video width="" height="" controls loop preload="auto" poster="" autoplay>
+        <source src="./video/video.m4v" type="video/mp4">
+            <source src="./video/video.webm" type="video/webm">
+                <source src="./video/video.ogv" type="video/ogg">
+                    <source src="./video/video.mp4" type="video/mp4">
+        您的浏览器太老了，不能识别HTML5的video元素，请跟换浏览器或更新！
+    </video>
+    </body>
+</html>
