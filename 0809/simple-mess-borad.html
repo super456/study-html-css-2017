@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>简单的留言板功能</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="./js/simple-mess-borad.js">
+    </script>
+</head>
+
+<body>
+    <h1>简单的留言版功能</h1>
+    <textarea id="mess" rows="10" cols="60" placeholder="请输入你的留言："></textarea>
+    <br>
+    <button onclick="saveMess('mess');">发送留言</button>
+    <button onclick="clearMess();">清空留言</button>
+    <button onclick="loadMess('msg');">读取留言</button>
+    <br>
+    <hr>
+    <p id="msg"></p>
+</body>
+
+</html>

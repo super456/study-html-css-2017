@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web localStorage长期存储数据</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="./js/localStorage.js">
+            
+        </script>
+        <link href="./css/style.css" rel="stylesheet">
+    </head>
+    <body>
+    <h1>Web localStorage长期存储数据在本地客户端</h1>
+    <br><p id="msg"></p><br>
+    <input type="text" name="data" value="" id="data">
+    <button onclick="saveLocal('data');">保存数据</button>
+    <button onclick="loadLocal('msg');">读取数据</button>
+    </body>
+</html>
