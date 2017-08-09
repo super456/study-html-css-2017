@@ -150,6 +150,25 @@
 - [Canvas保存文件][43]
 - [Canvas绘制动画][44]
 
+## 9号
+
+### HTML5基础学习
+- Web Storage本地存储
+- 简单实战本地访客留言
+- 学习audio元素和video元素
+- 拖放API
+
+
+[知识点总结查看][45]
+
+#### 项目练习 
+- [sessionStorage练习][46]
+- [localStorage练习][47]
+- [简单的本地访客留言实战][48]
+- [video元素和audio元素练习][49]
+- [拖放图片练习][50]
+
+
 ## 参考文献
 - [麦子学院——朱朝兵老师教学课程](http://www.maiziedu.com/u/1472/)
 - [W3Cschool](https://www.w3cschool.cn/)
@@ -211,3 +230,9 @@
 [43]: https://super456.github.io/study-html-css-2017/0808/canvas-todataurl.html
 [44]: https://super456.github.io/study-html-css-2017/0808/canvas-setinterval.html
 
+[45]: https://super456.github.io/study-html-css-2017/0809
+[46]: https://super456.github.io/study-html-css-2017/0809/sessionStorage.html
+[47]: https://super456.github.io/study-html-css-2017/0809/localStorage.html
+[48]: https://super456.github.io/study-html-css-2017/0809/simple-mess-borad.html
+[49]: https://super456.github.io/study-html-css-2017/0809/video-audio.html
+[50]: https://super456.github.io/study-html-css-2017/0809/drap.html
