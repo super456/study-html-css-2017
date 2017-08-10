@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>属性选择器元素练习</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/style.css" rel="stylesheet">
+    <style>
+        [id*=demo1] {
+            background: #c0c0c0;
+        }
+
+        [id^=demo1] {
+            color: #f60;
+        }
+
+        [id$=\-3] {
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        a[href$=html]::after{
+            content: "这是个html文件";
+            color: red;
+        }
+        a[href$=jpg]::after{
+            content:"这是一个jpg文件";
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="demo1">demo1</div>
+    <div id="demo1-1">demo1-1</div>
+    <div id="demo1-2">demo1-2</div>
+    <div id="demo1-3">demo1-3</div>
+    <div id="demo1-4">demo1-4</div>
+    <div id="demo1-5">demo1-5</div>
+    <div id="demo2">demo2</div>
+    <div id="demo2-2">demo2-2</div>
+    <div id="demo2-3">demo2-3</div>
+    <div id="demo2-2-3">demo2-2-3</div>
+    <div>
+        <p> <a href="123.html">这是html后缀的文件链接</a></p>
+        <p> <a href="123.jpg">这是jpg后缀的文件格式</a></p>
+    </div>
+</body>
+
+</html>

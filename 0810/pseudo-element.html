@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>伪类选择器以及伪元素练习</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./css/style.css" rel="stylesheet">
+        <style>
+        p.left{
+            text-align: left;
+            color: #f60;
+        }
+        p.right{
+            text-align: right;
+            color: #000;
+        }
+        a:link{
+            color: #000;
+        }
+        a:visited{
+            color: #f60;
+        }
+        a:hover{
+            font-size: 40px;
+            color: red;
+        }
+        a:active{
+            color:green;
+        }
+        p::first-line{
+            color: pink;
+        }
+        p::first-letter{
+            color:red;
+            font-size: 40px;
+        }
+        ul{
+            list-style: none;
+            font-size: 50px;
+        }
+        li::before{
+            content:"before伪元素";
+            color: greenyellow;
+        }
+        li::after{
+            content:"after伪元素";
+            color:greenyellow;
+        }
+        </style>
+    </head>
+    <body>
+    <h1>类选择器</h1>
+    <p class="left">类元素居左显示</p>
+    <p class="right">类元素居右显示</p>
+    <h1>伪类选择器</h1>
+    <a href="att-val1.html">伪类选择器</a>
+    <h1>伪元素选择器</h1>
+    <p>This is a param</p>
+    <ul>
+        <li>测试一</li>
+        <li>测试二</li>
+    </ul>
+    </body>
+</html>

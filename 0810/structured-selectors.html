@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>结构性伪类选择器元素练习</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+         :root {
+            background: pink;
+        }
+
+        body *:not(h1) {
+            background: gray;
+        }
+        :empty{
+            background: red;
+        }
+    </style>
+</head>
+
+<body>
+    <p>测试根root元素选择器和body的区别</p>
+    <h1>这里使用not元素选择器</h1>
+    <table border="1px" width="200px">
+        <tr>
+            <td>1</td>
+            <td></td>
+            <td>3</td>
+        </tr>
+    </table>
+</body>
+
+</html>
