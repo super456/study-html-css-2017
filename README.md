@@ -170,7 +170,47 @@
 
 ## 10号
 
-### HTML5基础学习
+### CSS3基础学习
+- CSS简介
+- 选择器讲解
+- 伪类选择器学习
+- 结构性伪类选择器学习
+
+[知识点总结查看][51]
+
+#### 项目练习
+- [属性选择器练习][52]
+- [伪类选择器练习][53]
+- [结构性伪类选择器练习][54]
+- [target选择器练习][55]
+
+## 11号
+
+### CSS3基础学习
+- UI元素状态伪类选择器
+- 通用兄弟元素选择器
+- 使用选择器在页面插入内容
+- 文字阴影及自动换行
+
+[知识点总结查看][56]
+
+#### 项目练习
+- [选择器E:hover、E:active和E:focus练习][57]
+- [E:enabled伪类选择器与E:disabled伪类练习][58]
+- [E:read-only伪类选择器与E:read-write伪类选择器练习][59]
+- [伪类选择器E:checked、E:default和indeterminate练习][60]
+- [伪类选择器E::selection练习][61]
+- [E:invalid伪类选择器与E:valid伪类选择器练习][62]
+- [E:required伪类选择器与E:optional伪类选择器][63]
+- [E:in-range伪类选择器与E:out-of-range伪类选择器练习][64]
+- [结构选择元素练习][69]
+- [循环使用样式][70]
+- [同类元素选择计算][71]
+- [通用兄弟元素选择器练习][65]
+- [使用选择器插入页面内容及图片练习][66]
+- [使用选择器插入项目编号][67]
+- [文字阴影及自动换行练习][68]
+
 
 ## 参考文献
 - [麦子学院——朱朝兵老师教学课程](http://www.maiziedu.com/u/1472/)
@@ -239,3 +279,28 @@
 [48]: https://super456.github.io/study-html-css-2017/0809/simple-mess-borad.html
 [49]: https://super456.github.io/study-html-css-2017/0809/video-audio.html
 [50]: https://super456.github.io/study-html-css-2017/0809/drap.html
+
+[51]: https://super456.github.io/study-html-css-2017/0810
+[52]: https://super456.github.io/study-html-css-2017/0810/att-val.html
+[53]: https://super456.github.io/study-html-css-2017/0810/pseudo-element.html
+[54]: https://super456.github.io/study-html-css-2017/0810/structured-selectors.html
+[55]: https://super456.github.io/study-html-css-2017/0810/target.html
+
+[56]: https://super456.github.io/study-html-css-2017/0811
+[57]: https://super456.github.io/study-html-css-2017/0811/hover-active-focus.html
+[58]: https://super456.github.io/study-html-css-2017/0811/disabled-enabled.html
+[59]: https://super456.github.io/study-html-css-2017/0811/read-only-write.html
+[60]: https://super456.github.io/study-html-css-2017/0811/checked-default-indeterminate.html
+[61]: https://super456.github.io/study-html-css-2017/0811/selection.html
+[62]: https://super456.github.io/study-html-css-2017/0811/invalid-valid.html
+[63]: https://super456.github.io/study-html-css-2017/0811/required-optional.html
+[64]: https://super456.github.io/study-html-css-2017/0811/in-range-out-of-range.html
+[65]: https://super456.github.io/study-html-css-2017/0811/div-span-p.html
+[66]: https://super456.github.io/study-html-css-2017/0811/before-after-img.html
+[67]: https://super456.github.io/study-html-css-2017/0811/content-counter.html
+[68]: https://super456.github.io/study-html-css-2017/0811/text-shadow-break-wrap.html
+[69]: https://super456.github.io/study-html-css-2017/0811/child-element.html
+[70]: https://super456.github.io/study-html-css-2017/0811/nth-child-loop.html
+[71]: https://super456.github.io/study-html-css-2017/0811/nth-of-type.html
+
+
