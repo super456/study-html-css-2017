@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>使用选择器插入图片内容</title>
+    <style>
+        span.bf::before {
+            content: url(./img/digest.gif);
+        }
+
+        span.af::after {
+            content: url(./img/hot.gif);
+        }
+        span.xinren::after {
+            content: url(./img/xinren.gif);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>使用选择器插入图片内容</h1>
+    <span class="bf">在帖子前面插入图片</span><br><br>
+    <span class="af">在帖子后面插入图片</span><br><br>
+    <span class="xinren">在帖子后面插入图片</span>
+</body>
+
+</html>
