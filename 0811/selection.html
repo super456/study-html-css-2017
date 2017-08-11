@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>::selection伪类练习</title>
+    <style>
+    ::selection{
+        background:green;
+        color: #fff;
+    }
+    input[type="text"]::selection{
+        background:#f60;
+        color: #fff;
+    }
+    </style>
+</head>
+<body>
+    <!-- 部分浏览器支持 -->
+    <h1>这是一段文字</h1>
+    <p>hahahah........fhasdhfkasjdklfjkldsafjlkdsajkl</p>
+    <input type="text" placeholder="请输入文字。。。">
+</body>
+</html>
