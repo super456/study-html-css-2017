@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>read-only以及read-write伪类选择器练习</title>
+    <style>
+    input[type="text"]:read-only{
+        color: pink;
+    }
+    input[type="text"]:read-write{
+        background:red;
+    }
+    </style>
+</head>
+<body>
+    <!-- 火狐浏览器不支持 -->
+    <h1>read-only以及read-write伪类选择器练习</h1>
+    姓名：<input type="text" value="某某某" readonly="readonly">
+    <br><br>
+    年龄：<input type="text">
+</body>
+</html>

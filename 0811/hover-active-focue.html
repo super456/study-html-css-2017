@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UI元素状态伪类选择器</title>
+    <style>
+        input[type="text"]:hover {
+            border-color: red;
+        }
+
+        input[type="text"]:active {
+            border-color: #f60;
+        }
+
+        input[type="text"]:focus {
+            background: pink;
+            color: white;
+        }
+
+        input[type="password"]:hover {
+            border-color: red;
+        }
+
+        input[type="password"]:active {
+            border-color: green;
+        }
+
+        input[type="password"]:focus {
+            background: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>hover元素、active元素以及focus元素练习</h1>
+    用户名：<input type="text"placeholder="请输入用户名"><br><br> 密 码：<input type="password">
+</body>
+
+</html>

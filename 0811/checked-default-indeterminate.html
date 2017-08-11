@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>checked伪类、default伪类及indeterminate伪类练习</title>
+    <style>
+    input[type="checkbox"]:checked{
+        outline: 2px solid green;
+    }
+    input[type="checkbox"]:default{
+        border: 2px solid red;
+    }
+    input[type="checkbox"]:indeterminate{
+        background:#f60;
+    }
+    </style>
+</head>
+<body>
+    <!-- 部分浏览器支持 -->
+    爱好：<input type="checkbox" value="篮球" checked="checked">篮球
+    <input type="checkbox" >乒乓球
+    <input type="checkbox">羽毛球
+    <input type="checkbox">游泳
+</body>
+</html>

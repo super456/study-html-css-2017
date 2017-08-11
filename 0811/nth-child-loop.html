@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>循环使用样式</title>
+    <style>
+        li:only-child{
+            font-size: 40px;
+        }
+
+        li:nth-child(2n+1) {
+            color: red;
+        }
+
+        li:nth-child(2n+2) {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>唯一的</h1>
+    <ul>
+        <li>唯一的元素：只有一个</li>
+        <!-- <li>唯一的元素：只有一个</li> -->
+        
+    </ul>
+    <h1>多个元素循环样式</h1>
+    <ul>
+        <li>123</li>
+        <li>456</li>
+        <li>789</li>
+        <li>123456</li>
+        <li>456789</li>
+        <li>123456789</li>
+    </ul>
+</body>
+
+</html>
