@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>使用inline-block来执行分列显示</title>
+    <style>
+        /* 使用block来实现分列显示：float、clear */
+        div.div {
+            width: 400px;
+        }
+
+        div.div1 {
+            background: #f60;
+            width: 200px;
+            float: left;
+        }
+
+        div.div2 {
+            background: #c0c0c0;
+            width: 200px;
+            float: left;
+        }
+
+        div.div3 {
+            clear: both;
+            background: gray;
+        }
+
+
+/*  使用inline-block来执行分列显示*/
+
+        div.inline1 {
+            background: #f60;
+            width: 200px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        div.inline2 {
+            background: #c0c0c0;
+            width: 200px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        div.inline3 {
+            width: 400px;
+            background: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>使用inline-block来执行分列显示与block进行对比</h1>
+    <div class="div">
+        <div class="div1">
+            使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对
+        </div>
+        <div class="div2">
+            使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比
+        </div>
+        <div class="div3">
+            使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比
+        </div>
+    </div><br><br>
+    <!-- 注意div与div之间的位置衔接 -->
+            <div class="inline1">
+                    使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对
+            </div><div class="inline2">
+                    使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比
+                 </div><div class="inline3">
+                    使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比使用inline-block来执行分列显示与block进行对比
+                      </div>
+</body>
+
+</html>
