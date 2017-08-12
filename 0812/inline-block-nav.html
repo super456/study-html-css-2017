@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>使用inline-block类型来显示水平菜单</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+            float: left;
+            border-right: 1px solid #000;
+            padding: 10px;
+            background-color: #c0c0c0;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        ul.inline li {
+            display: inline-block;
+            border-right: 1px solid #000;
+            padding: 10px;
+            background-color: #c0c0c0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>使用inline-block类型来显示水平菜单</h1>
+
+    <ul>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">首页</a></li>
+    </ul>
+<br><br>
+    <ul class="inline">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">首页</a></li>
+    </ul>
+</body>
+
+</html>
