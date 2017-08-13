@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>box-sizing属性练习</title>
+    <style>
+    div{
+        padding: 10px;
+        margin: 20px auto;
+        border: 30px solid gray;
+        background: green;
+        width: 300px;
+    }
+    div.a{
+        box-sizing: content-box;
+    }
+    div.b{
+        box-sizing: border-box;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>box-sizing属性练习</h1>
+    <div class="a">box-sizing属性练习box-sizing属性练习box-sizing属性练习box-sizing属性练习box-sizing属性练习</div>
+    <div class="b">
+        box-sizing属性练习box-sizing属性练习box-sizing属性练习box-sizing属性练习box-sizing属性练习box-sizing属性练习
+    </div>
+</body>
+
+</html>
