@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>背景属性background-clip练习</title>
+    <style>
+    div.div1{
+        width: 300px;
+        height: 300px;
+        background: #000;
+        border: 30px dashed green;
+        padding: 30px;
+        color: #fff;
+        float: left;
+    }
+    div.div2{
+        width: 300px;
+        height: 300px;
+        background: #000;
+        border: 30px dashed green;
+        padding: 30px;  
+        color: #fff;
+        float: left;
+        background-clip: padding-box;
+    }
+    div.div3{
+        width: 300px;
+        height: 300px;
+        background: #000;
+        border: 30px dashed green;
+        padding: 30px;
+        color: #fff;
+        float: left;
+        background-clip: content-box;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>背景属性background-clip练习</h1>
+    <div class="div1">这里是内容区域<br>默认background-clip属性值为border-box</div>
+    <div class="div2">这里是内容区域<br>background-clip属性值为padding-box</div>
+    <div class="div3">这里是内容区域<br>background-clip属性值为centent-box</div>    
+</body>
+</html>

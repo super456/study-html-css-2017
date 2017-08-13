@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>背景属性background-size练习</title>
+    <style>
+    div.div1{
+        border: 30px dashed green;
+        width: 600px;
+        height: 300px;
+        padding: 30px;
+        background-image: url(./img/bg.png);
+        background-repeat: no-repeat;
+    }
+    div.div2{
+        border: 30px dashed green;
+        width: 600px;
+        height: 300px;
+        padding: 30px;
+        background-image: url(./img/bg.png);
+        background-repeat: no-repeat;
+        background-origin: border-box;
+    }
+    div.div3{
+        border: 30px dashed green;
+        width: 600px;
+        height: 300px;
+        padding: 30px;
+        background-image: url(./img/bg.png);
+        background-repeat: no-repeat;
+        background-origin: content-box;
+    }
+    div.div4{
+        border: 30px dashed green;
+        width: 600px;
+        height: 300px;
+        padding: 30px;
+        background-image: url(./img/bg.png);
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        background-size: cover;
+    }
+    div.div5{
+        border: 30px dashed green;
+        width: 600px;
+        height: 300px;
+        padding: 30px;
+        background-image: url(./img/bg.png);
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        background-size: contain;
+    }
+    </style>
+</head>
+<body>
+    <h1>背景属性background-size练习</h1>
+    <div class="div1">图片默认是从padding-box值开始绘制起点</div><br><br>
+    <div class="div2">图片是从border-box值开始绘制起点</div><br><br>
+    <div class="div3">图片是从content-box值开始绘制起点</div>  
+    <div class="div4">图片大小background-size值为cover：就是将图片放大到整个容器</div>    
+    <div class="div5">图片大小background-size值为contain：就是将图片缩小到整个容器</div>    
+    
+</body>
+</html>
