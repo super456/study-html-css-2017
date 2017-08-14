@@ -211,6 +211,50 @@
 - [使用选择器插入项目编号][67]
 - [文字阴影及自动换行练习][68]
 
+## 12号
+
+### CSS3基础学习
+- 服务器端字体引用
+- 各种盒模型练习
+
+[知识点总结查看][72]
+
+#### 项目练习
+- [服务器端字体font-face属性][73]
+- [inline-blcok与float分列][74]
+- [inline-blcok与float水平菜单][75]
+- [inline-table实现表格][76]
+
+## 13号
+
+### CSS3基础学习
+- 背景相关属性
+- 显示不下的内容
+- 盒阴影
+- 宽度计算
+
+[知识点总结查看][77]
+
+#### 项目练习
+- [背景属性background-clip][78]
+- [背景属性background-image][79]
+- [背景属性background-size][80]
+- [盒阴影box-shadow][81]
+- [盒阴影box-shadow-table][82]
+- [box-sizing][83]
+- [表格相关属性display][84]
+- [none类型属性][85]
+- [显示不下的内容overflow属性][86]
+
+
+## 14号
+
+### CSS3基础学习
+
+
+[知识点总结查看][87]
+
+#### 项目练习
 
 ## 参考文献
 - [麦子学院——朱朝兵老师教学课程](http://www.maiziedu.com/u/1472/)
@@ -302,5 +346,22 @@
 [69]: https://super456.github.io/study-html-css-2017/0811/child-element.html
 [70]: https://super456.github.io/study-html-css-2017/0811/nth-child-loop.html
 [71]: https://super456.github.io/study-html-css-2017/0811/nth-of-type.html
+
+[72]: https://super456.github.io/study-html-css-2017/0812
+[73]: https://super456.github.io/study-html-css-2017/0812/font-face.html
+[74]: https://super456.github.io/study-html-css-2017/0812/inline-block-div.html
+[75]: https://super456.github.io/study-html-css-2017/0812/inline-block-nav.html
+[76]: https://super456.github.io/study-html-css-2017/0812/inline-table.html
+
+[77]: https://super456.github.io/study-html-css-2017/0813
+[78]: https://super456.github.io/study-html-css-2017/0813/background-clip.html
+[79]: https://super456.github.io/study-html-css-2017/0813/background-image.html
+[80]: https://super456.github.io/study-html-css-2017/0813/background-size.html
+[81]: https://super456.github.io/study-html-css-2017/0813/box-shadow.html
+[82]: https://super456.github.io/study-html-css-2017/0813/box-shadow-table.html
+[83]: https://super456.github.io/study-html-css-2017/0813/box-sizing.html
+[84]: https://super456.github.io/study-html-css-2017/0813/display-table.html
+[85]: https://super456.github.io/study-html-css-2017/0813/none.html
+[86]: https://super456.github.io/study-html-css-2017/0813/overflow.html
 
 
