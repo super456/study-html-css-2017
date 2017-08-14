@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS3动画属性transiton练习</title>
+    <style>
+    div{
+        width: 300px;
+        height: 300px;
+        color: #fff;
+        background: black;
+        /* 全部变换 */
+        -ms-transition:all 2s linear;
+        -webkit-transition: all 2s linear;
+        -moz-transition: all 2s linear;
+        -o-transition: all 2s linear;
+        /* 指定属性变换,注意：上面样式会被覆盖 */
+        -ms-transition:height 2s linear,background-color 3s ease 1s;
+        -webkit-transition: height 2s linear,background-color 3s ease 1s;
+        -moz-transition: height 2s linear,background-color 3s ease 1s;
+        -o-transition: height 2s linear,background-color 3s ease 1s;
+    }
+    div:hover{
+        width: 900px;
+        background-color: #f60;
+        height: 500px;
+    }
+    </style>
+</head>
+<body>
+    <h1>CSS3动画属性transiton练习</h1>
+    <div>鼠标移动到这里观看效果</div>
+</body>
+</html>

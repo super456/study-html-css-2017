@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS3动画关键帧属性animations练习</title>
+    <style>
+    div{
+        width: 300px;
+        height: 300px;
+        background-color: black;
+        color: white;
+        position: absolute;
+        left: 0;
+        top:0;
+    }
+    @-moz-keyframes simple{
+        0%{
+            position: absolute;
+            left: 0;
+            top:0;
+        }
+        20%{
+            position: absolute;
+            left: 20px;
+            top:20px;
+        }
+        40%{
+            position: absolute;
+            left: 100px;
+            top:20px;
+        }
+        80%{
+            position: absolute;
+            left: 400px;
+            top:20px;
+        }
+        100%{
+            position: absolute;
+            left: 2000px;
+            top:20px;
+        }
+        }
+        div{
+            -moz-animation-name: simple;
+            -moz-animation-duration: 5s;
+            -moz-animation-timing-function: linear;
+            -moz-animation-iteration-count: infinite; 
+            animation-name: simple;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>CSS3动画关键帧属性animations练习</h1>
+    <div>这个是动画效果</div>
+</body>
+</html>
