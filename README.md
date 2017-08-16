@@ -181,6 +181,7 @@
 熟悉并掌握常用的CSS3新增的样式属性及常见问题
 
 **CSS3知识点学习概览图**
+
 ![Markdown](http://i1.bvimg.com/601612/90cc4257446a03ee.png)
 
 ## 10号
@@ -397,4 +398,4 @@
 [91]: https://super456.github.io/study-html-css-2017/0814/animations.html
 [92]: https://super456.github.io/study-html-css-2017/0814/transition.html
 
-[93]: https://super456.github.io/study-html-css-2017/study-summary.md
+[93]: https://super456.github.io/study-html-css-2017/study-summary
