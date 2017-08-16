@@ -1,6 +1,9 @@
 # 2017年8月 (更新中...)
 
 ## 阶段一：
+
+重温HTML全部语法、主体结构、超链接和常用标记的使用。
+
 **HTML总知识点学习概览图：**
 
 ![Markdown](http://i4.eiimg.com/601612/4afeb62b93de70cd.png)
@@ -26,6 +29,9 @@
 
 
 ## 阶段二：
+
+重温CSS的三种选择器的使用，明白如何使用DIV+CSS进行网页布局，搞清楚浮动和盒模型问题。
+
 **CSS总知识点学习概览图：**
 
 ![Markdown](http://i4.bvimg.com/601612/b94ce8f179ac159e.png)
@@ -67,7 +73,9 @@
 
 ## 阶段三
 
-**1. 完全掌握HTML5网页结构。2. 掌握及熟练使用HTML5语义化元素。3. 能够独立地完成常见HTML5网页**
+1. 完全掌握HTML5网页结构。
+2. 掌握及熟练使用HTML5语义化元素。
+3. 能够独立地完成常见HTML5网页
 
 **HTML5总知识点学习概览图：**
 
@@ -168,6 +176,13 @@
 - [video元素和audio元素练习][49]
 - [拖放图片练习][50]
 
+## 阶段四
+
+熟悉并掌握常用的CSS3新增的样式属性及常见问题
+
+**CSS3知识点学习概览图**
+![Markdown](http://i1.bvimg.com/601612/90cc4257446a03ee.png)
+
 ## 10号
 
 ### CSS3基础学习
@@ -250,12 +265,22 @@
 ## 14号
 
 ### CSS3基础学习
-
+- 边框图像
+- 圆角边框
+- css3的变形功能
+- css3的动画功能
 
 [知识点总结查看][87]
 
 #### 项目练习
+- [border-image边框图像应用][88]
+- [border-radius圆角边框应用][89]
+- [CSS3的变形功能transform属性][90]
+- [CSS3动画关键帧属性animations练习][91]
+- [CSS3动画属性transition练习][92]
 
+
+# [连续两个星期的学习总结][93]
 ## 参考文献
 - [麦子学院——朱朝兵老师教学课程](http://www.maiziedu.com/u/1472/)
 - [W3Cschool](https://www.w3cschool.cn/)
@@ -365,3 +390,11 @@
 [86]: https://super456.github.io/study-html-css-2017/0813/overflow.html
 
 
+[87]: https://super456.github.io/study-html-css-2017/0814
+[88]: https://super456.github.io/study-html-css-2017/0814/border-image.html
+[89]: https://super456.github.io/study-html-css-2017/0814/border-radius.html
+[90]: https://super456.github.io/study-html-css-2017/0814/transform.html
+[91]: https://super456.github.io/study-html-css-2017/0814/animations.html
+[92]: https://super456.github.io/study-html-css-2017/0814/transition.html
+
+[93]: https://super456.github.io/study-html-css-2017/study-summary.md
