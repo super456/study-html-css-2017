@@ -1,5 +1,7 @@
 # 2017年8月9号学习内容：
 
+**[返回我的学习主页列表](https://super456.github.io/study-html-css-2017/)**
+
 ## HTML5基础学习
 
 ### (一) 本地存储
@@ -253,6 +255,9 @@ canPlayType() 方法可返回下列值之一：
 - [简单的本地访客留言实战][48]
 - [video元素和audio元素练习][49]
 - [拖放图片练习][50]
+
+
+**[返回我的学习主页列表](https://super456.github.io/study-html-css-2017/)**
 
 [46]: https://super456.github.io/study-html-css-2017/0809/sessionStorage.html
 [47]: https://super456.github.io/study-html-css-2017/0809/localStorage.html
