@@ -46,7 +46,6 @@
          background-clip: border-box || padding-box || context-box;
    ```
 
-
    2)、background-origin属性指定绘制背景图像的绘制起点
 
    在绘制背景图象时，默认是从内补白（padding）区域的左上角开始绘制的，但是可以利用background-origin属性来指定绘制时从边框的左上角开始绘制，或者是从内容的左上角开始绘制。
@@ -62,7 +61,6 @@
 
    使用方法：`background-origin: padding || border || content;` 那么在那些现代浏览器都支持的是一种新的语法。
 
-
    `background-origin: padding-box || border-box || content-box;`为了兼容新老版本的浏览器，在使用background-origin改变background-position的原点位置时，最好老旧语法一起加上，并且新语法放在老语法后面，这样只要是支持新语法规则的浏览器就自动会识别background-origin的最新语法。
 
    ```css
@@ -71,7 +69,6 @@
    ```
 
    有一点需要提出，在ＩＥ8以下版本解析是不一样的，在IE7以下版本background-origin默认是从border开始显示背景图片。
-
 
    兼容浏览器：background-origin虽然现代浏览器都支持，但在不同内核浏览器下还是需要带上其各自的前缀，这样在实际应用中最好按下面的语法规则书写，以保证只要支持background-origin的都能正常运行：
 
@@ -91,7 +88,6 @@
      /*W3c标准*/
      background-origin: padding-box || border-box || content-box;
    ```
-
 
    3)、background-size属性指定背景图像的尺寸
 
@@ -131,15 +127,13 @@
 |bounding-box | 重新考虑区域之间的间隔|
 |each-box  |对每一个独立的标签区域进行背景的重新划分。|
 
-
 2. 显示多个背景图片
 
    在一个元素中显示多个背景图像，在CSS3中一个元素可以显示多个背景图像，还可以将多个背景图像进行重叠显示，这样可以让我们对背景中所用素材的调整变的更加容易。
 
    使用方法：`background-image:url(1.png),url(2.png),url(3.png);`
 
-
-    图层的排序方法：浏览器中显示时叠放的顺序从上往下指定的，第一个图像文件是放在最上面的，最后指定的文件是放在最下面的。
+   图层的排序方法：浏览器中显示时叠放的顺序从上往下指定的，第一个图像文件是放在最上面的，最后指定的文件是放在最下面的。
 
 3. 圆角边框
 

@@ -17,17 +17,17 @@
    
    |元素所属类型   |   说明   |
    |--------------|---------|
-   |tabletable | 代表整个表格 | 
-   |tableinline-table  | 代表整个表格可以被指定为table类型也可以是inline-table类型|
-   |trtable-row  | 代表表格中的一行|
-   |tdtable-cell  | 代表表格中的单元格|
-   |thtable-cell |  代表但单元格中的列标题|
-   |tbodytable-row-group | 代表表格中行的所有行|
-   |theadtable-header-group | 代表表格中的表头部分|
-   |tfoottable-footer-group | 代表表格中的脚注部分|
-   |coltable-columm |  代表表格中的一列|
-   |colgrouptable-column-group |  代表表格中的所有列|
-   |captiontable-caption  | 代表整个表格的标题|
+|tabletable | 代表整个表格 | 
+|tableinline-table  | 代表整个表格可以被指定为table类型也可以是inline-table类型|
+|trtable-row  | 代表表格中的一行|
+|tdtable-cell  | 代表表格中的单元格|
+|thtable-cell |  代表但单元格中的列标题|
+|tbodytable-row-group | 代表表格中行的所有行|
+|theadtable-header-group | 代表表格中的表头部分|
+|tfoottable-footer-group | 代表表格中的脚注部分|
+|coltable-columm |  代表表格中的一列|
+|colgrouptable-column-group |  代表表格中的所有列|
+|captiontable-caption  | 代表整个表格的标题|
  
 
 3. none类型
