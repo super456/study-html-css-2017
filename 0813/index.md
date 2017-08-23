@@ -14,10 +14,10 @@
 2. 表格相关类型
 
    在CSS3中所有与表格相关的元素及其所属类型表：
-   
+
 |元素所属类型   |   说明   |
 |--------------|---------|
-|tabletable | 代表整个表格 | 
+|table | 代表整个表格 |
 |tableinline-table  | 代表整个表格可以被指定为table类型也可以是inline-table类型|
 |trtable-row  | 代表表格中的一行|
 |tdtable-cell  | 代表表格中的单元格|
@@ -28,7 +28,7 @@
 |coltable-columm |  代表表格中的一列|
 |colgrouptable-column-group |  代表表格中的所有列|
 |captiontable-caption  | 代表整个表格的标题|
- 
+
 
 3. none类型
 
