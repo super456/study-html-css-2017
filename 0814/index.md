@@ -19,7 +19,7 @@
 
    css3中的background-clip属性，它主要是用来控制我们的背景显示区域。
 
-使用方法：`background-clip ： border-box || padding-box || content-box;`
+   使用方法：`background-clip ： border-box || padding-box || content-box;`
 
    |  属性   |   作用    |
    |---------|----------|
@@ -93,7 +93,7 @@
    ```
 
 
-3)、background-size属性指定背景图像的尺寸
+   3)、background-size属性指定背景图像的尺寸
 
    在CSS3中，可以使用background-size属性来指定背景图像的尺寸。
 
