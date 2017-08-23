@@ -37,14 +37,14 @@
 
    background-clip兼容各浏览器的正确写法应该如下：
 
-    ```css
+   ```css
          /*Firefox3.6-*/
          -moz-background-clip: border || padding;
          /*Webkit*/
          -webkit-background-clip: border-box || padding-box || context-box;
          /*W3C标准 IE9+ and Firefox4.0+*/
          background-clip: border-box || padding-box || context-box;
-    ```
+   ```
 
 
    2)、background-origin属性指定绘制背景图像的绘制起点
@@ -65,17 +65,17 @@
 
    `background-origin: padding-box || border-box || content-box;`为了兼容新老版本的浏览器，在使用background-origin改变background-position的原点位置时，最好老旧语法一起加上，并且新语法放在老语法后面，这样只要是支持新语法规则的浏览器就自动会识别background-origin的最新语法。
 
-    ```css
+   ```css
      background-origin: padding || border || content;
      background-origin: padding-box || border-box || content-box;
-    ```
+   ```
 
    有一点需要提出，在ＩＥ8以下版本解析是不一样的，在IE7以下版本background-origin默认是从border开始显示背景图片。
 
 
    兼容浏览器：background-origin虽然现代浏览器都支持，但在不同内核浏览器下还是需要带上其各自的前缀，这样在实际应用中最好按下面的语法规则书写，以保证只要支持background-origin的都能正常运行：
 
-    ```css
+   ```css
      /*Old Webkit and Gecko*/
      -moz-background-origin: padding || border || content;
      -webkit-background-origin: padding || border || content;
@@ -90,7 +90,7 @@
 
      /*W3c标准*/
      background-origin: padding-box || border-box || content-box;
-    ```
+   ```
 
 
 3)、background-size属性指定背景图像的尺寸
@@ -110,7 +110,7 @@
 
    兼容的浏览器：background-size和其他的一些CSS3属性一样，需要加上自己的别名，
 
-    ```css
+   ```css
      /*Ｍozilla*/
      -moz-background-size: auto || <length> || <percentage> || cover || contain
      /*Webkit*/
@@ -119,7 +119,7 @@
      -o-background-size: auto || <length> || <percentage> || cover || contain
      /*W3c标准*/
      background-size: auto || <length> || <percentage> || cover || contain
-    ```
+   ```
 
    4)、Background-break属性指定背景图像的尺寸
 
@@ -160,12 +160,12 @@
 
    绘制4个不同半径的圆角边框
 
-    ```css
+   ```css
     border-top-left-radius:左上角半径
     border-bottom-left-radius:左下角半径
     border-top-right-radius：右上角半径
     border-bottom-right-radius:右下角半径
-    ```
+   ```
 
 4. 图像边框
  
@@ -173,12 +173,12 @@
 
    1)、border-image属性最简单的使用方法：
 
-    ```css
+   ```css
     -webkit-border-image: url("边框图像的路径") 上边距 右边距 下边距 左边距 ;
     -moz-border-image: url("边框图像的路径") 上边距 右边距 下边距 左边距 ;
     -o-border-image: url("边框图像的路径") 上边距 右边距 下边距 左边距 ;
     border-image: url("边框图像的路径") 上边距 右边距 下边距 左边距 ;
-    ```
+   ```
 
    上面的参数中，图像的路径、上边距、右边距、下边距、左边距必须进行指定，但是如果上边距、右边距、下边距、左边距得值完全一样，那么就可以缩写为一个。
 
@@ -186,7 +186,7 @@
 
    他会把图像切割成九个部分。
 
-    ```css
+   ```css
     border-top-left-image:
     border-top-image:
     border-top-right-image:
@@ -195,7 +195,7 @@
     border-bottom-left-image:
     border-bottom-image:
     border-bottom-right-image:
-    ```
+   ```
 
    在浏览器中显示的时候，`border-top-left-image、border-top-right-image、border-bottom-right-image、border-bottom-left-image`不会进行任何的拉伸。
 
