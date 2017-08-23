@@ -15,10 +15,10 @@
 
    在CSS3中所有与表格相关的元素及其所属类型表：
 
-|元素所属类型   |   说明   |
-|--------------|---------|
+   |  元素所属类型   |   说明   |
+   |---------------|-----------|
 |table | 代表整个表格 |
-|tableinline-table  | 代表整个表格可以被指定为table类型也可以是inline-table类型|
+|tableinline-table  | 代表整个表格可以被指定为table类型也可以是`inline-table`类型|
 |trtable-row  | 代表表格中的一行|
 |tdtable-cell  | 代表表格中的单元格|
 |thtable-cell |  代表但单元格中的列标题|
