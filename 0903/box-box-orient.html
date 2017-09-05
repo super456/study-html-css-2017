@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>元素的宽度与高度自适应及消除空白</title>
+    <style>
+        #centerbox {
+            width: 400px;
+            height: 500px;
+            display: -moz-box;
+            display: -webkit-box;
+            border: 5px solid black;
+            -moz-box-orient: vertical;
+            -webkit-box-orient: vertical;
+        }
+
+        div#div1 {
+            background-color: #f60;
+        }
+
+        div#div2 {
+            background-color: #c0c0c0;
+            -moz-box-flex: 1;
+            -webkit-box-flex: 1;
+        }
+
+        div#div3 {
+            background-color: pink;
+        }
+
+        div#div1,
+        div#div2,
+        div#div3 {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            font-size: 30px;
+        }
+        /* 使用多个box-flex属性 */
+
+        #centerbox1 {
+            width: 400px;
+            height: 500px;
+            display: -moz-box;
+            display: -webkit-box;
+            border: 5px solid black;
+            -moz-box-orient: vertical;
+            -webkit-box-orient: vertical;
+        }
+
+        div#div11 {
+            background-color: #f60;
+            -moz-box-flex: 1;
+            -webkit-box-flex: 1;
+        }
+
+        div#div12 {
+            background-color: #c0c0c0;
+            -moz-box-flex: 1;
+            -webkit-box-flex: 1;
+        }
+
+        div#div13 {
+            background-color: pink;
+            -moz-box-flex: 1;
+            -webkit-box-flex: 1;
+        }
+
+        div#div11,
+        div#div12,
+        div#div13 {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="centerbox">
+        <div id="div1">这个是DIV1</div>
+        <div id="div2">这个是DIV2</div>
+        <div id="div3">这个是DIV3</div>
+
+    </div>
+    <h2>使用多个box-flex属性平分容器宽度和高度</h2>
+    <div id="centerbox1">
+        <div id="div11">这个是DIV11</div>
+        <div id="div12">这个是DIV12</div>
+        <div id="div13">这个是DIV13</div>
+
+    </div>
+</body>
+
+</html>

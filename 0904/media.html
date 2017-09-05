@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小案例——自适应模块练习</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        div#centerbox {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        p#left {
+            width: 740px;
+            float: left;
+        }
+
+        p {
+            line-height: 500px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 2em;
+            color: #fff;
+        }
+
+        p#left-y {
+            float: left;
+            background-color: #f60;
+            width: 200px;
+            margin-right: 20px;
+        }
+
+        p#left-z {
+            float: left;
+            background-color: pink;
+            width: 520px;
+        }
+
+        p#right {
+            float: right;
+            background-color: #c0c0c0;
+            width: 200px;
+        }
+        /* 当显示屏幕大于1000像素时 */
+
+        @media screen and (min-width:1000px) {
+            div#centerbox {
+                width: 1000px;
+                margin: 0 auto;
+            }
+
+            p#left {
+                width: 740px;
+                float: left;
+            }
+            p#left-y {
+                float: left;
+                width: 200px;
+            }
+            p#left-z {
+                float: left;
+                width: 520px;
+            }
+            p#right {
+                float: right;
+                width: 200px;
+            }
+        }
+        /* 当显示屏幕大于640像素，小于999像素时 */
+
+        @media screen and (min-width:640px) and (max-width:999px) {
+            div#centerbox {
+                width: 640px;
+                margin: 0 auto;
+            }
+            p {
+                line-height: 400px;
+            }
+            p#left {
+                width: 640px;
+                float: left;
+            }
+            p#left-y {
+                float: left;
+                width: 200px;
+            }
+            p#left-z {
+                float: left;
+                width: 420px;
+            }
+            p#right {
+                clear: both;
+                float: none;
+                width: 100%;
+                line-height: 150px;
+            }
+        }
+        /* 当显示屏幕小于639像素时 */
+
+        @media screen and (max-width:639px) {
+            div#centerbox {
+                width: 100%;
+                margin: 0 auto;
+            }
+            p {
+                line-height: 200px;
+            }
+            p#left {
+                width: 100%;
+                float: none;
+            }
+            p#left-y {
+                float: none;
+                width: 100%;
+            }
+            p#left-z {
+                float: none;
+                width: 100%;
+            }
+            p#right {
+                clear: both;
+                float: none;
+                width: 100%;
+                line-height: 200px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="centerbox">
+        <div id="left">
+            <p id="left-y">left</p>
+            <p id="left-z">center</p>
+        </div>
+        <p id="right">right</p>
+    </div>
+</body>
+
+</html>

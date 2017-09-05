@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>布局相关样式——弹性盒布局</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #centerbox {
+            display: -moz-box;
+            display: -webkit-box;
+            /* 改变元素的排列方向 :注意有些固定宽度的元素，会影响*/
+            -moz-box-orient: vertical;
+            -webkit-box-orient: vertical;
+        }
+
+        div#left {
+            width: 300px;
+            /* float: left; */
+            padding: 10px;
+            background-color: green;
+            /* 设置元素显示顺序 */
+            -moz-box-ordinal-group: 3;
+            -webkit-box-ordinal-group: 3;
+        }
+
+        div#right {
+            width: 300px;
+            /* float: right; */
+            padding: 10px;
+            background-color: pink;
+            /* 设置元素显示顺序 */
+            -moz-box-ordinal-group: 2;
+            -webkit-box-ordinal-group: 2;
+        }
+
+        div#center {
+            /* width: 400px; */
+            /* float: left; */
+            /* 设置弹性布局属性样式 */
+            -moz-box-flex: 1;
+            -webkit-box-flex: 1;
+            background-color: #f60;
+            /* 设置元素显示顺序 */
+            -moz-box-ordinal-group: 1;
+            -webkit-box-ordinal-group: 1;
+        }
+        /* 控制元素总宽度，针对元素宽度和高度 */
+
+        div#left,
+        div#right,
+        div#center {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="centerbox">
+        <div id="left">
+            <h2>项目名称</h2>
+            <ul>
+                <li>项目名称一</li>
+                <li>项目名称一</li>
+                <li>项目名称一</li>
+                <li>项目名称一</li>
+                <li>项目名称一</li>
+            </ul>
+        </div>
+        <div id="center">
+            <h2>弹性布局样式</h2>
+            <p>这里是项目内容这里是项目内容这里是项目内容这里是项目内容这里是项这里是项目内容这里是项目内容这里是项目内容这里是项目内容 目内容这里是项目内容这里是项目内容这里是项目内容这里是项目内 这里是项目内容这里是项目内容这里是项目内容容
+            </p>
+        </div>
+        <div id="right">
+            <h2>推荐文章</h2>
+            <ul>
+                <li>推荐文章</li>
+                <li>推荐文章</li>
+                <li>推荐文章</li>
+                <li>推荐文章</li>
+                <li>推荐文章</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

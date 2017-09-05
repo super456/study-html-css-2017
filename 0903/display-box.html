@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>布局相关样式——盒布局</title>
+    <style>
+        #centerbox {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+        div#left {
+            width: 300px;
+            float: left;
+            padding: 10px;
+            background-color: green;
+        }
+
+        div#right {
+            width: 300px;
+            float: right;
+            padding: 10px;
+            background-color: pink;
+        }
+
+        div#center {
+            width: 400px;
+            float: left;
+            background-color: #f60;
+        }
+        /* 控制元素总宽度，针对元素宽度和高度 */
+
+        div#left,
+        div#right,
+        div#center {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+        /* 使用盒布局样式 */
+
+        #centerbox1 {
+            width: 1000px;
+            margin: 0 auto;
+            display: -moz-box;
+            display: -webkit-box;
+        }
+
+        div#left1 {
+            width: 300px;
+            padding: 10px;
+            background-color: green;
+        }
+
+        div#right1 {
+            width: 300px;
+            padding: 10px;
+            background-color: pink;
+        }
+
+        div#center1 {
+            width: 400px;
+            background-color: #f60;
+        }
+        /* 控制元素总宽度，针对元素宽度和高度 */
+
+        div#left1,
+        div#right1,
+        div#center1 {
+            -moz-box-sizing: border-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="centerbox">
+        <div id="left">
+            <h2>项目名称</h2>
+            <ul>
+                <li>项目名称一</li>
+                <li>项目名称一</li>
+                <li>项目名称一</li>
+                <li>项目名称一</li>
+                <li>项目名称一</li>
+            </ul>
+        </div>
+        <div id="center">
+            <p>这里是项目内容这里是项目内容这里是项目内容这里是项目内容这里是项这里是项目内容这里是项目内容这里是项目内容这里是项目内容 目内容这里是项目内容这里是项目内容这里是项目内容这里是项目内 这里是项目内容这里是项目内容这里是项目内容容
+            </p>
+        </div>
+        <div id="right">
+            <h2>推荐文章</h2>
+            <ul>
+                <li>推荐文章</li>
+                <li>推荐文章</li>
+                <li>推荐文章</li>
+                <li>推荐文章</li>
+                <li>推荐文章</li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <hr/>
+        <h2>使用盒布局display:-moz-box;</h2>
+
+    </div>
+    <div id="centerbox1">
+        <div id="left1">
+            <h2>项目名称</h2>
+            <ul>
+                <li>项目名称一</li>
+                <li>项目名称一</li>
+                <li>项目名称一</li>
+                <li>项目名称一</li>
+                <li>项目名称一</li>
+            </ul>
+        </div>
+        <div id="center1">
+            <p>这里是项目内容这里是项目内容这里是项目内容这里是项目内容这里是项这里是项目内容这里是项目内容这里是项目内容这里是项目内容 目内容这里是项目内容这里是项目内容这里是项目内容这里是项目内 这里是项目内容这里是项目内容这里是项目内容容
+            </p>
+        </div>
+        <div id="right1">
+            <h2>推荐文章</h2>
+            <ul>
+                <li>推荐文章</li>
+                <li>推荐文章</li>
+                <li>推荐文章</li>
+                <li>推荐文章</li>
+                <li>推荐文章</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
