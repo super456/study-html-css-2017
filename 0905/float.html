@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>二列和三列布局</title>
+    <style>
+        body {
+            font-size: 18px;
+            line-height: 200%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #side {
+            width: 120px;
+            background-color: #9f9;
+            float: left;
+            height: 300px;
+        }
+
+        #main {
+            width: 70%;
+            background-color: #9ff;
+            height: 300px;
+            margin-left: 120px;
+        }
+
+        #side1 {
+            float: left;
+            width: 202px;
+        }
+
+        #main1 {
+            margin-left: 202px;
+            text-indent: 36px;
+        }
+        /* 三列自适应设置 */
+
+        #side2 {
+            width: 120px;
+            background-color: #9f9;
+            float: left;
+            height: 300px;
+        }
+
+
+        #side3 {
+            float: right;
+            width: 120px;
+            background-color: #9f9;
+            height: 300px;
+        }
+
+        #main2 {
+            height: 300px;
+            background-color: #9ff;
+            margin: 0 120px;
+            /* float: left; */
+        }
+        /* 三列固定宽度设置 */
+        #content{
+            width: 470px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="side">此处显示ID为side的内容</div>
+    <div id="main">此处显示ID为main1的内容</div>
+    <h1>理解浮动属性问题</h1>
+    <div id="side1"><img src="./img/8db0a185ly1fito6cfupwg207n06xqe9.gif" width="192px" height="142px" />
+    </div>
+    <div id="main1">标准之路[www.aa25.cn]提供DIV+CSS教程,DIV+CSS视频教程,web2.0标准,DIV+CSS布局入门教程,网页布局实例,css布局实例,div+css模板,div+css实例解析,网站重构，网页代码,水晶图标,幻灯广告图片.教程适合初学者循序渐进学习!
+        文章出处：标准之路(http://www.aa25.cn)标准之路[www.aa25.cn]提供DIV+CSS教程,DIV+CSS视频教程,web2.0标准,DIV+CSS布局入门教程,网页布局实例,css布局实例,div+css模板,div+css实例解析,网站重构，网页代码,水晶图标,幻灯广告图片.教程适合初学者循序渐进学习!
+        文章出处：标准之路(http://www.aa25.cn)标准之路[www.aa25.cn]提供DIV+CSS教程,DIV+CSS视频教程,web2.0标准,DIV+CSS布局入门教程,网页布局实例,css布局实例,div+css模板,div+css实例解析,网站重构，网页代码,水晶图标,幻灯广告图片.教程适合初学者循序渐进学习!
+        文章出处：标准之路(http://www.aa25.cn)标准之路[www.aa25.cn]提供DIV+CSS教程,DIV+CSS视频教程,web2.0标准,DIV+CSS布局入门教程,网页布局实例,css布局实例,div+css模板,div+css实例解析,网站重构，网页代码,水晶图标,幻灯广告图片.教程适合初学者循序渐进学习!
+        文章出处：标准之路(http://www.aa25.cn)标准之路[www.aa25.cn]提供DIV+CSS教程,DIV+CSS视频教程,web2.0标准,DIV+CSS布局入门教程,网页布局实例,css布局实例,div+css模板,div+css实例解析,网站重构，网页代码,水晶图标,幻灯广告图片.教程适合初学者循序渐进学习!
+        文章出处：标准之路(http://www.aa25.cn)
+    </div>
+    <h1>三列自适应宽度</h1>
+    <!-- 这里有个坑，mian2的div要放在第三个，放在第二个的话，side3的div会显示在下一行，不在同一排 -->
+    <div id="side2">此处显示ID为side的内容</div>
+    <div id="side3">此处显示ID为side2的内容</div>
+    <div id="main2">此处显示ID为main2的内容</div>
+    <h1>三列固定宽度</h1>
+    <!-- 规范的说，定义id的标签不能重复使用的，但是为了节省时间 -->
+    <div id="content">
+            <div id="side2">此处显示ID为side的内容</div>
+            <div id="side3">此处显示ID为side2的内容</div>
+            <div id="main2">此处显示ID为main2的内容</div>     
+    </div>
+</body>
+
+</html>
