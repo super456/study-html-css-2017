@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>超链接伪类及其练习</title>
+    <style>
+        ul li {
+            list-style-type: none;
+        }
+
+        ul li a {
+            text-decoration: none;
+            display: block;
+            height: 30px;
+            width: 100px;
+            line-height: 30px;
+            text-align: center;
+            background-color: #CCC;
+            border-bottom: 1px solid #f00;
+        }
+        /* 注意四种状态顺序不能颠倒，否则有些显示不出来 */
+
+        ul li a:link {
+            color: #06f;
+        }
+
+        ul li a:visited {
+            color: #999;
+            text-decoration: line-through;
+        }
+
+        ul li a:hover {
+            color: #06f;
+            text-decoration: underline;
+            background-color: #333;
+        }
+
+        ul li a:active {
+            color: #f0f;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="ds">链接一</a></li>
+        <li><a href="s">链接二</a></li>
+        <li><a href="asd">链接三</a></li>
+    </ul>
+</body>
+
+</html>

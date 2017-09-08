@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>带下拉子菜单的导航菜单</title>
+    <style>
+        #menu {
+            width: 80%;
+            margin: 0 auto;
+            height: 36px;
+            border-bottom: 3px solid red;
+        }
+
+        #menu ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #menu ul li {
+            float: left;
+            height: 36px;
+            line-height: 36px;
+            margin-right: 4px;
+        }
+
+        #menu ul li a {
+            text-decoration: none;
+            display: block;
+            width: 100px;
+            height: 36px;
+            background: url(./img/yellow.png) 0 0 repeat;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        #menu ul li a:hover {
+            background: url(./img/red.png) 0 0 repeat;
+            color: #fff;
+        }
+
+        #menu ul li #current {
+            background: url(./img/red.png) 0 0 repeat;
+            color: #fff;
+        }
+
+        #menu ul li ul {
+            border: 1px solid #ccc;
+            display: none;
+            position: absolute;
+        }
+
+        #menu ul li ul li {
+            float: none;
+            width: 100px;
+            background: #eee;
+            margin: 0;
+        }
+
+        #menu ul li ul li a {
+            background: url(./img/yellow.png) 0 0 repeat;
+        }
+
+        #menu ul li ul li a:hover {
+            background: #333;
+            color: #fff;
+        }
+
+        #menu ul li:hover ul {
+            display: block;
+        }
+
+        #menu ul li.sfhover ul {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="menu">
+        <ul>
+            <li><a href="" id="current">博客首页</a></li>
+            <li><a href="">博文归档</a>
+                <ul>
+                    <li><a href="">2017</a></li>
+                    <li><a href="">2016</a></li>
+                    <li><a href="">2015</a></li>
+                </ul>
+            </li>
+            <li><a href="">博文分类</a>
+                <ul>
+                    <li><a href="">html5</a></li>
+                    <li><a href="">css3</a></li>
+                    <li><a href="">javascript</a></li>
+                </ul>
+            </li>
+            <li><a href="">关于作者</a></li>
+            <li><a href="">联系作者</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

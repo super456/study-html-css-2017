@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>简单的纵向列表</title>
+    <style>
+        body {
+            font-family: Verdana;
+            font-size: 12px;
+            line-height: 1.5;
+        }
+
+        #menu {
+            width: 100px;
+            border: 1px solid #ccc;
+        }
+
+        #menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        #menu ul li {
+            background-color: #eee;
+            height: 26px;
+            line-height: 26px;
+            border-bottom: 1px solid #ccc;
+            padding: 0 8px;
+            position: relative;
+        }
+
+        #menu ul li a {
+            text-decoration: none;
+        }
+
+        #menu ul li a:hover {
+            color: red;
+        }
+
+        #menu ul li ul {
+            display: none;
+            position: absolute;
+            left: 100px;
+            top: 0;
+            width: 100px;
+            border: 1px solid #ccc;
+            border-bottom: none;
+        }
+
+        #menu ul li:hover ul {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="menu">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">全部博文&gt;&gt;</a>
+                <ul>
+                    <li><a href="#">2017</a></li>
+                    <li><a href="#">2016</a></li>
+                    <li><a href="3">2015</a></li>
+                </ul>
+            </li>
+            <li><a href="#">博文分类&gt;&gt;</a>
+                <ul>
+                    <li><a href="#">HTML5</a></li>
+                    <li><a href="#">CSS3</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                </ul>
+            </li>
+            <li><a href="#">关于作者</a></li>
+            <li><a href="#">联系作者</a></li>
+        </ul>
+
+    </div>
+</body>
+
+</html>

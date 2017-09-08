@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css自适应宽度滑动门菜单</title>
+    <style type="text/css">
+        a {
+            display: block;
+            float: left;
+            margin: 5px;
+            height: 37px;
+            line-height: 37px;
+            text-align: center;
+            background: url(btn_bg.gif) no-repeat 0px 0px;
+            color: #d84700;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+            padding-left: 18px;
+        }
+
+        a span {
+            display: block;
+            background: url(./img/sprites.png) no-repeat right 0px;
+            padding-right: 20px;
+        }
+
+        a:hover {
+            background: url(./img/sprites.png) no-repeat 0px -35px;
+        }
+
+        a:hover span {
+            background: url(./img/sprites.png) no-repeat right -35px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <p><a href="#"><span>免费注册</span></a><a href="#"><span>登录</span></a><a href="#"><span>在淘宝网上开店</span></a></p>
+</body>
+
+</html>
