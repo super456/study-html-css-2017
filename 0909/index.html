@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>网站首页</title>
+</head>
+
+<body>
+    <div id="container">
+        <!-- 此处是header设置 -->
+        <div id="header">
+            <div id="logo"><img src="./img/logo.gif" alt="企业logo" width="181px" height="45px"></div>
+            <div id="search">
+                <form action="" method="post" name="form1" id="form1">
+                    搜索产品
+                    <input class="inp_srh" type="text" name="textfield" id="textfield">
+                    <input class="btn_srh" type="submit" value="查询" id="button" name="button">
+                </form>
+            </div>
+        </div>
+        <!-- header设置结束 -->
+        <div id="nav">
+            <div id="nav_l"></div>
+            <div id="nav_r"></div>
+            <div id="nav_main">
+                <ul>
+                    <li><a href=""><span>首页</span></a></li>
+                    <li><a href="" id="nav_current"><span>企业新闻</span></a></li>
+                    <li><a href=""><span>企业简介</span></a></li>
+                    <li><a href=""><span>产品展厅</span></a></li>
+                    <li><a href=""><span>企业历史</span></a></li>
+                    <li><a href=""><span>招商加盟</span></a></li>
+                    <li><a href=""><span>网上下单</span></a></li>
+                    <li><a href=""><span>联系我们</span></a></li>
+                </ul>
+            </div>
+            <div id="nav_son">
+                <ul>
+                    <li><a href=""><span>企业动态</span></a></li>
+                    <li><a href=""><span>领导活动</span></a></li>
+                    <li><a href=""><span>产品咨询</span></a></li>
+                    <li><a href=""><span>通知公告</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="maincontent">
+            <div id="main">
+                <div id="index_top">
+                    <div id="pic">
+                        <script language='javascript' type="text/javascript">
+                            linkarr = new Array();
+                            picarr = new Array();
+                            textarr = new Array();
+                            var swf_width = 269;
+                            var swf_height = 210;
+                            var files = "./img/pic.jpg|./img/pic1.jpg|./img/pic2.jpg|./img/pic3.jpg";
+                            var links = "#|#|#|#";
+                            var texts = "";
+                            for (i = 1; i < picarr.length; i++) {
+                                if (files == "") files = picarr[i];
+                                else files += "|" + picarr[i];
+                            }
+                            for (i = 1; i < linkarr.length; i++) {
+                                if (links == "") links = linkarr[i];
+                                else links += "|" + linkarr[i];
+                            }
+                            for (i = 1; i < textarr.length; i++) {
+                                if (texts == "") texts = textarr[i];
+                                else texts += "|" + textarr[i];
+                            }
+                            document.write(
+                                '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="' +
+                                swf_width + '" height="' + swf_height + '">');
+                            document.write(
+                                '<param name="movie" value="./img/indexpic.swf"><param name="quality" value="high">'
+                            );
+                            document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+                            document.write('<param name="FlashVars" value="bcastr_file=' + files + '&bcastr_link=' +
+                                links + '&bcastr_title=' + texts + '">');
+                            document.write('<embed src="./img/indexpic.swf" wmode="opaque" FlashVars="bcastr_file=' +
+                                files + '&bcastr_link=' + links + '&bcastr_title=' + texts +
+                                '& menu="false" quality="high" width="' + swf_width + '" height="' + swf_height +
+                                '" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'
+                            );
+                            document.write('</object>');
+                        </script>
+                        <div id="login"><span><a href="#"><img src="./img/btn_login1.gif" alt="个人用户登录" width="131px" height="39px" /></a></span>
+                            <a href="#"><img src="./img/btn_login.gif" alt="经销商登录" width="131px" height="39px" /></a>
+                        </div>
+                    </div>
+                    <div id="hot_news">
+                        <div id="news_top">
+                            <h1>苹果iphone 4手机将于9月25日在中国上市</h1>
+                            <p>日前中国联通正式宣布将于9月25日9时在中国大陆市场全面推出iPhone4，并为iPhone4用户量身定制了合约计划。</p>
+                        </div>
+                        <div id="news_list">
+                            <ul>
+                                <li><span>9-22</span><a href="#">纯CSS实现三列DIV等高布局</a></li>
+                                <li><span>9-22</span><a href="#">HTML元素的ID和Name属性的区别</a></li>
+                                <li><span>9-22</span><a href="#">完美兼容ie6,ie7,ie8以及firefox的css透明滤镜</a></li>
+                                <li><span>9-22</span><a href="#">DIV+CSS实现放大镜效果的分页样式</a></li>
+                                <li><span>9-22</span><a href="#">javascript为FF设置首页</a></li>
+                                <li><span>9-22</span><a href="#">复制到系统剪贴板之IE,ff兼容版</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="index_pic">
+                    <h2><span></span></h2>
+                    <ul>
+                        <li><a href=""><img src="./img/pic4.gif" alt="产品名称">产品名称</a></li>
+                        <li><a href=""><img src="./img/pic4.gif" alt="产品名称">产品名称</a></li>
+                        <li><a href=""><img src="./img/pic4.gif" alt="产品名称">产品名称</a></li>
+                        <li><a href=""><img src="./img/pic4.gif" alt="产品名称">产品名称</a></li>
+                        <li><a href=""><img src="./img/pic4.gif" alt="产品名称">产品名称</a></li>
+                        <li><a href=""><img src="./img/pic4.gif" alt="产品名称">产品名称</a></li>
+                        <li><a href=""><img src="./img/pic4.gif" alt="产品名称">产品名称</a></li>
+                        <li><a href=""><img src="./img/pic4.gif" alt="产品名称">产品名称</a></li>
+                        <li><a href=""><img src="./img/pic4.gif" alt="产品名称">产品名称</a></li>
+                        <li><a href=""><img src="./img/pic4.gif" alt="产品名称">产品名称</a></li>
+                    </ul>
+                </div>
+                <div id="index_box">
+                    <div class="box">
+                        <h2><a class="more" href="">更多...</a><span>企业历史</span></h2>
+                        <div class="box_con">
+                            <dl>
+                                <dt><a href=""><img src="./img/pic5.gif" alt="企业历史" width="91px" height="70px"></a></dt>
+                                <dd><a href=""><strong>多角度对比 苹果iPod系列真机</strong></a>导言：北京时间9月2日凌晨1点苹果在旧金山举行新品发布会，数码特派记者在美国现场直播&hellip;</dd>
+                            </dl>
+                            <ul>
+                                <li><a href="#">纯CSS实现三列DIV等高布局</a></li>
+                                <li><a href="#">HTML元素的ID和Name属性的区别</a></li>
+                                <li><a href="#">完美兼容ie6,ie7,ie8以及firefox的css透明滤镜</a></li>
+                                <li><a href="#">DIV+CSS实现放大镜效果的分页样式</a></li>
+                                <li><a href="#">javascript为FF设置首页</a></li>
+                                <li><a href="#">复制到系统剪贴板之IE,ff兼容版</a></li>
+                                <li><a href="#">DIV+CSS实现放大镜效果的分页样式</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box box1">
+                        <h2><a class="more" href="#">更多..</a><span>企业历史</span></h2>
+                        <div class="box_con">
+                            <dl>
+                                <dt><a href="#"><img src="./img/pic5.gif" alt="多角度对比 苹果iPod系列真机" width="91" height="70" /></a></dt>
+                                <dd><a href="#"><strong>多角度对比 苹果iPod系列真机</strong></a> 导言：北京时间9月2日凌晨1点苹果在旧金山举行新品发布会，数码特派记者在美国现场直播&hellip;
+                                </dd>
+                            </dl>
+                            <ul>
+                                <li><a href="#">纯CSS实现三列DIV等高布局</a></li>
+                                <li><a href="#">HTML元素的ID和Name属性的区别</a></li>
+                                <li><a href="#">完美兼容ie6,ie7,ie8以及firefox的css透明滤镜</a></li>
+                                <li><a href="#">DIV+CSS实现放大镜效果的分页样式</a></li>
+                                <li><a href="#">javascript为FF设置首页</a></li>
+                                <li><a href="#">复制到系统剪贴板之IE,ff兼容版</a></li>
+                                <li><a href="#">DIV+CSS实现放大镜效果的分页样式</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="side">
+                <div class="side_box">
+                    <h2><strong>产品</strong>导购</h2>
+                    <div class="side_con product">
+                        <ul>
+                            <li><strong>语音业务：</strong><a href="">普通电话</a> | <a href="">语音数字中继</a></li>
+                            <li><strong>语音业务：</strong><a href="">普通电话</a> | <a href="">语音数字中继</a></li>
+                            <li class="product3"><strong>语音业务：</strong><a href="">普通电话</a> | <a href="">语音数字中继</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="side_box">
+                    <h2><strong>使用</strong>问答</h2>
+                    <div class="side_con ask">
+                        <dl>
+                            <dt><a href="">最新出的这个产品如何使用？</a></dt>
+                            <dd>该产品采用全新的技术，较上一产品有了质的飞跃，功能上增强了...</dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="">最新出的这个产品如何使用？</a></dt>
+                            <dd>该产品采用全新的技术，较上一产品有了质的飞跃，功能上增强了...</dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="">最新出的这个产品如何使用？</a></dt>
+                            <dd>该产品采用全新的技术，较上一产品有了质的飞跃，功能上增强了...</dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="">最新出的这个产品如何使用？</a></dt>
+                            <dd>该产品采用全新的技术，较上一产品有了质的飞跃，功能上增强了...</dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="">最新出的这个产品如何使用？</a></dt>
+                            <dd>该产品采用全新的技术，较上一产品有了质的飞跃，功能上增强了...</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="side_box">
+                    <h2><strong>联系</strong>我们</h2>
+                    <div class="side_con contact">
+                        <a href=""><img src="./img/tel.gif" alt="联系我们" width="222px" height="112px"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="clearfloat"></div>
+        <div id="footer">
+            <dl>
+                <dt><a href="">关于我们</a> || <a href="">产品目录</a> || <a href="">练习我们</a> || <a href="">友情链接</a> || <a href="">反馈问题</a> || <a href="">广告合作</a></dt>
+                <dd>Copyright &copy; 2007 - 2010 aa25.cn   All Rights Reserved<br />
+                    标准之路  版权所有  京ICP备10007159号</dd>
+          
+            </dl>
+        </div>
+    </div>
+</body>
+
+</html>
